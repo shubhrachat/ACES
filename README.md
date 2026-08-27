@@ -18,10 +18,13 @@ The architecture of ACES went through multiple iterations as it morphed from the
 - **Security**: Added Rate Limiting (per-IP and total), userid/password/bearer tokens based Authentication, and  Role based authorisation (RBAC).  
 
 **Tech Stack**
+
 Python, LangGraph, Ollama, FastAPI, Docker, Docker Compose, Pydantic, SlowAPI, OAuth2.0, JWT (JSON Web Token), curl, Swagger UI
 
 **Architecture Diagram**
+
 The following diagram illustrates the final system architecture. 
+
 ```mermaid
 graph TD 
 A[Terminal/Swagger UI] -->|1. Send User Request|B[Orchestrator] 
@@ -127,7 +130,7 @@ I have 2 key takeaways from this project.
 - Creating a production quality distributed service requires careful consideration regarding scalability, reliability, portability, and security. Industry standard tools provide support for addressing these requirements.
 - A good system architecture is a key requirement for a production quality service. It can simplify the design, e.g. choosing a centralised security architecture segregates security constructs to one micro service with other microservices focused on core functionality, while extending security benefits to all microservices.
 
-**Source Code:** [AMIA_SourceCode](https://github.com/shubhrachat/ACES_SourceCode) *(Access Restricted)*
+**Source Code:** [ACES_SourceCode](https://github.com/shubhrachat/ACES_SourceCode) *(Access Restricted)*
 
 ## Copyright & Licensing
 
