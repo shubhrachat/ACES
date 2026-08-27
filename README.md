@@ -1,6 +1,6 @@
 # ACES
 ```mermaid
-graph TD 
+graph LR
 A[Terminal/Swagger UI] -->|1. Send User Request|B[Orchestrator] 
 
 subgraph Core Application Processing
