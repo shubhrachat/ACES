@@ -21,10 +21,10 @@ F-->|10. Prepare draft email|G
 G-->|11. Return draft email|F
 
 %% Send all responses to Supervisor %%
-D-->|Forward sentiment|H[Supervisor]
-E-->|Forward category, priority|H
-F-->|Forward draft email|H
+D-->|12. Forward sentiment|H[Supervisor]
+E-->|13. Forward category, priority|H
+F-->|14. Forward draft email|H
 
 %% Send back Final Response %%
-H-->|Send Final Response|A
+H-->|15. Send Final Response|A
 ```
